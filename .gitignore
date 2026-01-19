@@ -1,0 +1,64 @@
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+.tutore_venv/
+
+# =========================
+# Python cache / build
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# =========================
+# Datasets (root-level)
+# =========================
+tutore_test/
+tutore_train/
+PadChest_GR_resized_224_224/
+pretrained/
+
+
+# =========================
+# Vector databases / embeddings
+# =========================
+vectorDB/
+
+
+# =========================
+# Model artifacts / checkpoints
+# =========================
+kaushalya/
+models/
+weights/
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Frontend build artifacts
+# =========================
+node_modules/
+dist/
+build/
+.vite/
+
+# =========================
+# OS / editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
