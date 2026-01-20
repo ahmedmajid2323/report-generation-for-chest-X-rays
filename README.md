@@ -67,13 +67,13 @@ This file contains the **entire inference pipeline**, including:
 
 - Input: Chest X-ray image (`multipart/form-data`)
 - Output:
-```json
+- 
 {
   "report": "...",
   "ranked_findings": "...",
   "compact_findings": [...],
   "metrics": {...}
-}
+} 
 
 This backend is used to connect the full pipeline to the frontend.
 
